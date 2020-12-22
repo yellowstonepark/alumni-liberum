@@ -1,0 +1,99 @@
+/*The code for the css doc for the HTML version 2 of this document*/
+/*navigation formatting*/
+.nav {
+  font-size: 110%;
+  margin-top: 35px;
+  margin-right: 10px;
+}
+
+#logo {
+  float: left;
+  margin-top: -40px;
+  margin-left: -5px;
+}
+
+.Paragragh {
+  float left;
+    font-size: medium;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #00008B;
+    background-color: #F5F5DC;
+}
+
+.organization {
+  padding: 0px, 80px, 1000px;
+  height: 101px;
+  length: 500px;
+  overflow: hidden;
+  word-spacing: 20px;
+}
+
+
+/*formatting for the actual constitution section*/
+.The-Constitution {
+  width: 98%;
+  height: 500px;
+  min-height: 600px;
+  background-color: white;
+  float: left;
+  overflow: scroll;
+}
+
+/*formatting for anything that has a "heading 1"*/
+h1 {
+  color: black;
+  text-shadow: 5px 2px 4px orange;
+  padding-top: 15px;
+  border-style: hidden;
+  border-width: 10px;
+  font-size: 250%;
+}
+
+/*formatting for anything that has a "heading 2"*/
+h2 {
+  background-color:#196767;
+  font-size: 180%;
+}
+
+/*formatting for paragraphs*/
+p {
+  color:white;
+  background-color: gray;
+  font-size: 120%;
+  cursor: text;
+}
+
+body {
+  animation-name: zoomIn;
+  animation-duration: 2s;
+  animation-delay: -0.05s;
+}
+
+.footer {
+  clear: both;
+  font-weight: 500;
+  color: gray;
+  background-color: #d9d9d9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 80%;
+}
+
+.nextbutton {
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  text-align: center;
+  background-color: inherit;
+  font-weight: 500;
+  font-size: 200%;
+  color: gray;
+  background-color: #d9d9d9;
+  padding-right: 10px;
+  margin-top: -100px;
+}
+
+.nextbutton:hover {background: #eee;}

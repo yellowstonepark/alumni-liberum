@@ -1,0 +1,132 @@
+/*The code for the css doc for the HTML version 2 of this document*/
+body {
+  float: center;
+
+  animation-name: backInDown;
+  animation-duration: 2s;
+  animation-delay: -0.05s;
+}
+
+.nav {
+  font-size: 110%;
+  margin-top: 35px;
+
+  animation-name: backInDown;
+  animation-duration: 2s;
+  animation-delay: -0.05s;
+}
+
+#logo {
+  float: left;
+  margin-top: -40px;
+  margin-left: -5px;
+}
+
+.Paragragh {
+    float: inherit;
+    font-size: medium;
+    padding: 10px;
+    width: 90%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #00008B;
+    background-color: none;
+    margin-top: 50px;
+    box-shadow: 10px 10px 0px 0px #adafdb;
+
+}
+
+.organization {
+  padding: 0px, 80px, 1000px;
+  height: 101px;
+  length: 500px;
+  overflow: hidden;
+  word-spacing: 20px;
+}
+
+.top10 {
+  clear: both;
+  padding-left: 30px;
+  font-size: 200%;
+  background-image: url(https://static.toiimg.com/photo/77757963.cms);
+  opacity: 1;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+h2 {
+}
+
+h3 {
+  font-size: 180%;
+  font-weight: bolder;
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+p {
+  font-size: 150%;
+}
+
+li {
+  font-size: 150%;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+#textxy {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  opacity: 0.7;
+}
+
+.r {
+  font-size: 10%;
+}
+
+.rxc {
+  float: right;
+  font-size: 600%;
+  width: 5%;
+  margin-top: -1500px;
+  border: blue;
+}
+
+.footer {
+  clear: both;
+  font-weight: 500;
+  color: gray;
+  background-color: #d9d9d9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 70%;
+}
+
+.nextbutton {
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  text-align: center;
+  background-color: inherit;
+  font-weight: 500;
+  font-size: 200%;
+  color: gray;
+  background-color: #d9d9d9;
+  padding-right: 10px;
+  margin-top: -100px;
+}
+
+.nextbutton:hover {background: #eee;}

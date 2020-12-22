@@ -1,0 +1,71 @@
+/*The code for the CSS doc for the HTML version 2 of this document*/
+.nav {
+  font-size: 110%;
+  margin-top: 35px;
+}
+
+#logo {
+  float: left;
+  margin-top: -40px;
+  margin-left: -5px;
+}
+
+.Paragragh {
+    float: left;
+    width: 45%;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    font-size: 110%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #F2F2F2;
+}
+
+.organization {
+  padding: 0px, 80px, 1000px;
+  height: 101px;
+  length: 500px;
+  overflow: hidden;
+  word-spacing: 20px;
+}
+
+h1 {
+  font-size: 500%;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 280%;
+}
+
+body {
+  animation-name: lightSpeedInRight;
+  animation-duration: 2s;
+  animation-delay: -0.05s;
+}
+
+.xxx {
+  background-color: blue;
+}
+
+.img {
+  width: 40%;
+  length: 40%;
+  float: right;
+  padding-right: 1%;
+  margin-left: -340px;
+  padding-right: 37px;
+  margin-top: 0px;
+  min-width: 350px;
+}
+
+.footer {
+  clear: both;
+  font-weight: 500;
+  color: gray;
+  background-color: #d9d9d9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

@@ -1,0 +1,84 @@
+/*The code for the css doc for the HTML version 2 of this document*/
+.nav {
+  font-size: 110%;
+  margin-top: 35px;
+}
+
+#logo {
+  float: left;
+  margin-top: -40px;
+  margin-left: -5px;
+}
+
+.Paragragh {
+    float left;
+    font-size: medium;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #515c54;
+    background-color: #F5F5DC;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 100px;
+}
+
+.organization {
+  padding: 0px, 80px, 1000px;
+  height: 101px;
+  length: 500px;
+  overflow: hidden;
+  word-spacing: 20px;
+}
+
+h1 {
+  font-size: 200%;
+  font-style: normal;
+  font-stretch: condensed;
+  margin-top: 0px;
+}
+
+h2 {
+  font-size: 300%;
+  font-weight: bold;
+}
+
+img {
+  float: left;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+body {
+  animation-name: backInDown;
+  animation-duration: 2s;
+  animation-delay: -0.05s;
+}
+
+.footer {
+  clear: both;
+  font-weight: 500;
+  color: gray;
+  background-color: #d9d9d9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.nextbutton {
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  text-align: center;
+  background-color: inherit;
+  font-weight: 500;
+  font-size: 200%;
+  color: gray;
+  background-color: #d9d9d9;
+  padding-right: 10px;
+  margin-top: -100px;
+}
+
+.nextbutton:hover {background: #eee;}

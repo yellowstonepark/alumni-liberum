@@ -1,0 +1,166 @@
+/*The code for the css doc for the HTML version 2 of this document*/
+.nav {
+  font-size: 110%;
+  margin-top: 35px;
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-delay: -0.05s;
+
+  @media only screen and (max-width: 800px) {
+    font-size: 350%;
+  }
+}
+
+#logo {
+  float: left;
+  margin-top: -40px;
+  margin-left: -5px;
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-delay: -0.05s;
+
+  @media only screen and (max-width: 800px) {
+    width: 200%;
+    length: 200%
+  }
+}
+
+.Paragragh {
+    float: left;
+    font-size: medium;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #00008B;
+    background-color: #76b046;
+    margin-top: 50px;
+}
+
+.organization {
+  padding: 0px, 80px, 1000px;
+  height: 101px;
+  length: 500px;
+  overflow: hidden;
+  word-spacing: 20px;
+}
+
+h1 {
+  font-size: 300%;
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-delay: -0.05s;
+}
+
+h2 {
+  font-size: 200%;
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-delay: -0.05s;
+}
+
+h3 {
+  font-size: 200%;
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-delay: -0.05s;
+}
+
+h4 {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-delay: -0.05s;
+}
+
+h5 {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-delay: -0.05s;
+}
+
+h6 {
+  font-size: 700%;
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-delay: -0.05s;
+}
+
+p {
+  font-size: 150%;
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-delay: -0.05s;
+}
+
+li {
+  font-size: 150%;
+  font-style: oblique;
+  font-weight: bold;
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-delay: -0.05s;
+}
+
+#textxy {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -25px;
+  margin-bottom: 10px;
+  background-color: white;
+  opacity: 0.7;
+}
+
+#x {
+  height: 650px;
+  length: 80%;
+  overflow: hidden;
+  color: black;
+  font-weight: bold;
+  font-style: oblique;
+  background-color: white;
+  background-image: url(https://ballislife.com/wp-content/uploads/2013/01/Untitled-13333.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: -10px;
+  opacity: 1;
+}
+
+.r {
+  font-size: 10%;
+}
+
+.footer {
+  clear: both;
+  font-weight: 500;
+  color: gray;
+  background-color: #d9d9d9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 80%;
+}
+
+.nextbutton {
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  text-align: center;
+  background-color: inherit;
+  font-weight: 500;
+  font-size: 200%;
+  color: gray;
+  background-color: #d9d9d9;
+  padding-right: 10px;
+  margin-top: -100px;
+}
+
+.nextbutton:hover {background: #eee;}
